@@ -6,9 +6,11 @@ This is a simple, time-based, macOS style dynamic wallpaper for GTK3 that transi
 
 <h2>Install</h2>
 <h4>Open a terminal and type each of these lines:</h4>
-cd ~/Pictures
-git clone https://github.com/logi-26/mac_catalina_dynamic_wallpaper_for_gtk
-cd mac_catalina_dynamic_wallpaper_for_gtk
-python install_wallpaper.py
-cd ../
-rm -rf mac_catalina_dynamic_wallpaper_for_gtk
+[ol]
+[li]cd ~/Pictures[/li]
+[li]git clone https://github.com/logi-26/mac_catalina_dynamic_wallpaper_for_gtk[/li]
+[li]cd mac_catalina_dynamic_wallpaper_for_gtk[/li]
+[li]python install_wallpaper.py[/li]
+[li]cd ../[/li]
+[li]rm -rf mac_catalina_dynamic_wallpaper_for_gtk[/li]
+[/ol]
