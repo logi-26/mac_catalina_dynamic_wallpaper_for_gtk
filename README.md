@@ -1,5 +1,5 @@
 <h1>Catalina Dynamic Wallpaper</h2>
-This is a simple, time-based, macOS style dynamic wallpaper for GTK3 that transitions between the dark and light versions of macOS Catalina's default wallpapers.
+This is a simple, time-based, macOS style dynamic wallpaper for GTK based desktop's that transitions between the dark and light versions of macOS Catalina's default wallpapers.
 <h2>Screenshot</h2>
 
 <img src="https://github.com/caglarturali/catalina-dynamic-wallpaper/blob/master/screenshots/screenshot.gif"> 
