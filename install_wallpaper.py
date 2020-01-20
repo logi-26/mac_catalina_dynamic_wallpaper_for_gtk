@@ -58,7 +58,7 @@ if os.path.exists(xml_file):
 		print('It looks like you are running MacOS? This wallpaper only supports GTK based desktops.')
 	elif not desktop_functions.is_environment_gtk(desktop_env):
 		print('It looks like you are running a {0} desktop environment? This wallpaper only supports GTK based desktops.'.format(desktop_env))
-	else
+	else:
 		if os.path.exists(catalina_wallpaper_path):
 			desktop_functions.set_wallpaper(catalina_wallpaper_path, desktop_env)
 			print('MacOS Catalina style wallpaper installed.')
