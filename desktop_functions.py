@@ -96,7 +96,7 @@ def set_wallpaper(image, desktop_env):
             args = ['gsettings', 'set', 'org.mate.background', 'picture-filename', '%s' % image]
             subprocess.Popen(args)
         except:  # MATE < 1.6
-            args = ['mateconftool-2', '-t', 'string', '--set', '/desktop/mate/background/picture_filename', %s' % image]
+            args = ['mateconftool-2', '-t', 'string', '--set', '/desktop/mate/background/picture_filename', '%s' % image]
             subprocess.Popen(args)
 	
 	# gnome2
